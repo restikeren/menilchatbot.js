@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": ["Hai", "Halo", "Apa kabar?", "Ada orang di sana?", "Hei", "Selamat pagi", "Selamat siang"],
+      "responses": ["Halo, bagaimana saya bisa membantu Anda hari ini?", "Hai, bagaimana saya bisa membantu?", "Halo! Bagaimana kabar Anda hari ini?", "Hai! Bagaimana saya bisa mendukung Anda?"]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["Selamat tinggal", "Sampai jumpa", "Dadah", "Hati-hati", "Sampai nanti"],
+      "responses": ["Selamat tinggal! Jaga diri Anda baik-baik.", "Sampai jumpa!", "Dadah! Hubungi saya jika Anda membutuhkan sesuatu.", "Hati-hati!"]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Terima kasih", "Makasih", "Itu sangat membantu", "Saya menghargainya", "Terima kasih banyak"],
+      "responses": ["Sama-sama!", "Saya di sini untuk membantu!", "Senang bisa membantu!", "Tidak masalah!"]
+    },
+    {
+      "tag": "depresi",
+      "patterns": ["Saya merasa sangat sedih", "Saya sangat sedih", "Saya merasa putus asa", "Saya depresi", "Saya tidak bisa melihat jalan keluar", "Semuanya terasa sia-sia"],
+      "responses": ["Saya turut prihatin mendengarnya. Berbicara dengan profesional kesehatan mental mungkin bisa membantu.", "Sepertinya Anda sedang melalui masa yang sulit. Pertimbangkan untuk berbicara dengan seseorang yang Anda percayai.", "Anda tidak sendirian. Ada orang yang bisa membantu Anda melewati ini.", "Penting untuk berbicara tentang perasaan Anda dengan seseorang yang bisa mendukung Anda."]
+    },
+    {
+      "tag": "kecemasan",
+      "patterns": ["Saya merasa sangat cemas", "Saya selalu khawatir", "Saya mengalami serangan panik", "Saya tidak bisa tenang", "Kecemasan saya sangat mengganggu", "Saya terus merasa gelisah"],
+      "responses": ["Saya turut prihatin Anda merasa seperti ini. Cobalah latihan pernapasan dalam atau berbicara dengan profesional.", "Kecemasan bisa sangat mengganggu. Penting untuk berbicara dengan seseorang yang bisa membantu.", "Mungkin Anda bisa mencoba mindfulness atau meditasi.", "Pertimbangkan untuk berkonsultasi dengan terapis yang bisa memberikan strategi untuk mengelola kecemasan Anda."]
+    },
+    {
+      "tag": "bantuan",
+      "patterns": ["Bisakah Anda membantu saya?", "Saya butuh dukungan", "Saya tidak tahu harus berbuat apa", "Saya butuh seseorang untuk diajak bicara", "Bisakah Anda memberi saya saran?", "Saya merasa tersesat"],
+      "responses": ["Tentu. Bagaimana saya bisa membantu Anda?", "Saya di sini untuk mendukung Anda. Ceritakan apa yang sedang terjadi.", "Mari kita cari solusinya bersama. Bagaimana saya bisa membantu?", "Saya di sini untuk Anda. Apa yang mengganggu Anda?"]
+    },
+    {
+      "tag": "sumber_daya",
+      "patterns": ["Di mana saya bisa menemukan bantuan?", "Apa sumber daya yang tersedia?", "Saya butuh informasi tentang kesehatan mental", "Siapa yang bisa saya ajak bicara?", "Apakah ada kelompok dukungan?", "Saya butuh terapis"],
+      "responses": ["Anda bisa mengunjungi mentalhealth.gov untuk informasi lebih lanjut.", "Crisis Text Line menawarkan dukungan gratis, kirim pesan HOME ke 741741.", "Pertimbangkan untuk mengunjungi klinik kesehatan mental setempat atau berbicara dengan dokter Anda.", "Ada banyak sumber daya online yang tersedia, seperti National Alliance on Mental Illness (NAMI)."]
+    },
+    {
+      "tag": "self_harm",
+      "patterns": ["Saya berpikir untuk menyakiti diri sendiri", "Saya ingin melukai diri sendiri", "Saya tidak bisa mengatasi lagi", "Saya merasa ingin menyayat diri saya"],
+      "responses": ["Saya sangat prihatin Anda merasa seperti ini. Penting untuk berbicara dengan seseorang yang bisa memberikan bantuan segera.", "Tolong hubungi profesional kesehatan mental atau seseorang yang Anda percayai.", "Ada orang yang peduli dengan Anda dan ingin membantu. Jangan ragu untuk mencari bantuan.", "Pertimbangkan untuk menelepon hotline krisis atau pergi ke ruang gawat darurat terdekat."]
+    },
+    {
+      "tag": "pikiran_bunuh_diri",
+      "patterns": ["Saya ingin mati", "Saya punya pikiran untuk bunuh diri", "Saya tidak bisa melanjutkan", "Hidup tidak berharga", "Saya berpikir untuk mengakhiri semuanya"],
+      "responses": ["Saya sangat prihatin Anda merasa seperti ini. Tolong segera bicara dengan seseorang, seperti profesional kesehatan mental atau seseorang yang Anda percayai.", "Anda tidak perlu melalui ini sendirian. Hubungi seseorang yang bisa membantu.", "Ada hotline krisis yang tersedia, seperti National Suicide Prevention Lifeline di 1-800-273-8255.", "Pertimbangkan untuk mencari bantuan segera dari profesional kesehatan mental atau pergi ke ruang gawat darurat terdekat."]
+    },
+    {
+      "tag": "strategi_mengatasi",
+      "patterns": ["Bagaimana cara mengatasi perasaan saya?", "Apa saja strategi mengatasi?", "Bagaimana cara mengatasi stres?", "Apa yang bisa saya lakukan untuk merasa lebih baik?", "Bagaimana cara mengelola emosi saya?"],
+      "responses": ["Beberapa orang merasa terbantu dengan berolahraga, latihan mindfulness, atau berbicara dengan terapis.", "Cobalah teknik relaksasi seperti pernapasan dalam, meditasi, atau yoga.", "Menghubungi teman atau anggota keluarga bisa memberikan dukungan.", "Menulis jurnal untuk mengekspresikan pikiran dan perasaan Anda juga bisa membantu."]
+    }
+  ]
+}
